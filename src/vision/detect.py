@@ -1,20 +1,27 @@
 import cv2
 import sys
+import numpy
 
-# Get user supplied values
+# Setup data
 cascPath = "haarcascade_frontalface_default.xml"
 webcam = cv2.VideoCapture(0)
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
 
-while webcam.isOpened(): # try to get the first frame
+black_image = numpy.zeros((288, 382))
+
+# Detect if display is present
+try:
+    cv2.imshow("test image", black_image)
+    displayPresent = True
+    cv2.destroyAllWindows()
+except:
+    displayPresent = False
+
+while webcam.isOpened():
     rval, frame = webcam.read()
-#else:
-#    rval = False
 
-
-    # Read the image
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     # Detect faces in the image
@@ -32,5 +39,12 @@ while webcam.isOpened(): # try to get the first frame
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
 
-    #cv2.imshow("Faces found", frame)
-    #cv2.waitKey(0)
+    if displayPresent is True:
+        cv2.imshow("Faces found", frame)
+        if cv2.waitKey(10) == 27:
+            # Hit esc
+            break
+    else:
+        pass    # no display
+
+cv2.destroyAllWindows()
