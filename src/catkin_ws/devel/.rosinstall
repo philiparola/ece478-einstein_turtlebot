@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/parola/ece478-turtlebot/src/catkin_ws/devel/setup.sh
