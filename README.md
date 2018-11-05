@@ -47,6 +47,8 @@ rosdep update
 echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+# Install ROS packages
+sudo apt-get install ros-kinetic-dynamixel-controllers
 # Install extra dev tools
 sudo apt install python-opencv python-pip python3-pip python-dev python3-dev
 # Install development environment
@@ -67,6 +69,11 @@ source /opt/ros/kinetic/setup.bash
 # eg: to create a bare node:
 roscore
 # To run our project:
-	#insert servolauncher here
-	#open new terminals and run detect.py then gestures.py
+source <repository_dir>/catkin_ws/devel/setup.bash
+chmod a+rw /dev/ttyUSB0		# Unless more than one USB->Serial adapter
+# Now launch these in seperate terminals
+roslaunch my_dynamixel_tutorial controller_manager.launch
+roslaunch my_dynamixel_tutorial start_all_motor_controller.launch
+<repository_dir>/.../detect.py
+<repository_dir>/.../gestures.py
 ```
