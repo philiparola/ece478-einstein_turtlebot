@@ -63,7 +63,7 @@ def rightWave():
 	NeckHori.publish(0)
 	NeckVert.publish(0.8)	
 	time.sleep(1)
-	RArmElbowHori.publish(1.89)
+	RArmElbowHori.publish(0)
 	time.sleep(1)
 
 
