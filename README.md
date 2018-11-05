@@ -35,6 +35,38 @@ Ubuntu 16.04 and ROS Kinetic came preinstalled courtesy of Melih.
 2) TBD
 
 ## Building and Installing
-TODO
+```bash
+# Follow [ROS Kinetic install guide](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+sudo apt-get update
+sudo apt-get install ros-kinetic-desktop-full
+sudo rosdep init
+rosdep update
+echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+sudo apt-get install python-rosinstall python-rosinstall-generator python-wstool build-essential
+# Install extra dev tools
+sudo apt install python-opencv python-pip python3-pip python-dev python3-dev
+# Install development environment
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install chromium-browser code vim vim-gtk
+```
 
 ## Running
+```bash
+# Setup the environment
+source /opt/ros/kinetic/setup.bash
+
+# Next, run whatever project or launchfiles you need
+# eg: to create a bare node:
+roscore
+# To run our project:
+	#insert servolauncher here
+	#open new terminals and run detect.py then gestures.py
+```
