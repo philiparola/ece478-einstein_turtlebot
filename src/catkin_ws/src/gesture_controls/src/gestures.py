@@ -77,7 +77,9 @@ rate = rospy.Rate(10) # 10hz
 while not rospy.is_shutdown():
 	rospy.Subscriber("face_angle", Int32, callback)
 	if -100 < face_angle_global < 100:
-		if face_angle_global < 0:
+		if face_angle_global is 0:
+ 			pass
+		elif face_angle_global < 0:
 			leftWave()
 		else:
 			rightWave()
