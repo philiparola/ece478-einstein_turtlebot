@@ -1,0 +1,129 @@
+RArmShoulderVert_01:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: RASV_01
+    joint_speed: 1.17
+    motor:
+        id: 1
+        init: 409
+        min: 409
+        max: 819
+
+RArmShoulderHori_02:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: RASH_02
+    joint_speed: 1.17
+    motor:
+        id: 2
+        init: 341
+        min: 341
+        max: 648
+
+RArmElbowVert_03:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: RAEV_03
+    joint_speed: 1.17
+    motor:
+        id: 3
+        init: 306
+        min: 306
+        max: 717
+
+RArmElbowHori_04:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: RAEH_04
+    joint_speed: 1.17
+    motor:
+        id: 4
+        init: 341
+        min: 341
+        max: 648
+
+LArmShoulderVert_05:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: LASV_05
+    joint_speed: 1.17
+    motor:
+        id: 5
+        init: 204
+        min: 204
+        max: 614
+
+LArmShoulderHori_06:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: LASH_06
+    joint_speed: 1.17
+    motor:
+        id: 6
+        init: 341
+        min: 341
+        max: 648
+
+LArmElbowVert_07:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: LAEV_07
+    joint_speed: 1.17
+    motor:
+        id: 7
+        init: 613
+        min: 613
+        max: 1023
+
+LArmElbowHori_08:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: LAEH_08
+    joint_speed: 1.17
+    motor:
+        id: 8
+        init: 409
+        min: 409
+        max: 682
+
+NeckHori_09:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: NH_09
+    joint_speed: 1.17
+    motor:
+        id: 9
+        init: 511
+        min: 358
+        max: 665
+
+NeckVert_10:
+    controller:
+        package: dynamixel_controllers
+        module: joint_position_controller
+        type: JointPositionController
+    joint_name: NV_10
+    joint_speed: 1.17
+    motor:
+        id: 10
+        init: 375
+        min: 375
+        max: 614

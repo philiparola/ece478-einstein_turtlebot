@@ -1,0 +1,2 @@
+beginner_tutorials:dynamixel_motor/dynamixel_controllers:dynamixel_motor/dynamixel_driver:dynamixel_motor/dynamixel_motor:dynamixel_motor/dynamixel_msgs:dynamixel_motor/dynamixel_tutorials:my_dynamixel_tutorial:the_walker
+-DCATKIN_DEVEL_PREFIX=/home/phong/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/phong/catkin_ws/install -G Unix Makefiles
