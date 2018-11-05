@@ -2,6 +2,9 @@
 import cv2
 import sys
 import numpy
+import rospy
+from std_msgs.msg import String
+from std_msgs.msg import Int32
 
 # Setup data
 cascPath = "haarcascade_frontalface_default.xml"
@@ -20,6 +23,11 @@ try:
     cv2.destroyAllWindows()
 except:
     displayPresent = False
+
+# ROS setup
+pub = rospy.Publisher('face_angle', Int32, queue_size=10)
+rospy.init_node('talker', anonymous=True)
+rate = rospy.Rate(10) # 10hz
 
 while webcam.isOpened():
     rval, frame = webcam.read()
@@ -51,6 +59,9 @@ while webcam.isOpened():
                 largestFaceLocation = ((x+(w/2)) - (webcamWidth/2))
 
     print("Face is {0} degrees from the center!".format(largestFaceLocation))
+    rospy.loginfo(largestFaceLocation)
+    pub.publish(largestFaceLocation)
+    rate.sleep()
 
     if displayPresent is True:
         cv2.imshow("Faces found", frame)
