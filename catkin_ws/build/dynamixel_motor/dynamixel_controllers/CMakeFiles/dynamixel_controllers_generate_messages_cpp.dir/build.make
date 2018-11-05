@@ -43,100 +43,100 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phong/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/parola/ece478-turtlebot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phong/catkin_ws/build
+CMAKE_BINARY_DIR = /home/parola/ece478-turtlebot/catkin_ws/build
 
 # Utility rule file for dynamixel_controllers_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/progress.make
 
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h
-dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h
+dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h
 
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from dynamixel_controllers/StopController.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from dynamixel_controllers/SetTorqueLimit.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dynamixel_controllers/StartController.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from dynamixel_controllers/RestartController.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dynamixel_controllers/SetSpeed.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from dynamixel_controllers/SetComplianceSlope.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from dynamixel_controllers/SetComplianceSlope.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from dynamixel_controllers/SetCompliancePunch.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from dynamixel_controllers/SetCompliancePunch.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from dynamixel_controllers/SetSpeed.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from dynamixel_controllers/RestartController.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from dynamixel_controllers/StopController.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from dynamixel_controllers/SetTorqueLimit.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from dynamixel_controllers/TorqueEnable.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from dynamixel_controllers/SetComplianceMargin.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating C++ code from dynamixel_controllers/StartController.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dynamixel_controllers/TorqueEnable.srv"
-	cd /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/phong/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv -p dynamixel_controllers -o /home/phong/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating C++ code from dynamixel_controllers/SetComplianceMargin.srv"
+	cd /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers && /home/parola/ece478-turtlebot/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv -p dynamixel_controllers -o /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 dynamixel_controllers_generate_messages_cpp: dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/StopController.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/StartController.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/RestartController.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h
-dynamixel_controllers_generate_messages_cpp: /home/phong/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetTorqueLimit.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/RestartController.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceSlope.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetCompliancePunch.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetSpeed.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StopController.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/TorqueEnable.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/StartController.h
+dynamixel_controllers_generate_messages_cpp: /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers/SetComplianceMargin.h
 dynamixel_controllers_generate_messages_cpp: dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/build.make
 
 .PHONY : dynamixel_controllers_generate_messages_cpp
@@ -147,10 +147,10 @@ dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_
 .PHONY : dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/build
 
 dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/clean:
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/clean
 
 dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/depend:
-	cd /home/phong/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phong/catkin_ws/src /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers /home/phong/catkin_ws/build /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parola/ece478-turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parola/ece478-turtlebot/catkin_ws/src /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers /home/parola/ece478-turtlebot/catkin_ws/build /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamixel_motor/dynamixel_controllers/CMakeFiles/dynamixel_controllers_generate_messages_cpp.dir/depend
 

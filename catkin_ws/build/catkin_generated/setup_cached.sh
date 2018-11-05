@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/phong/catkin_ws/build"
+export PWD="/home/parola/ece478-turtlebot/catkin_ws/build"

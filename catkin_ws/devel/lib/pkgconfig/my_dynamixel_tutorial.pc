@@ -1,8 +1,8 @@
-prefix=/home/phong/catkin_ws/devel
+prefix=/home/parola/ece478-turtlebot/catkin_ws/devel
 
 Name: my_dynamixel_tutorial
 Description: Description of my_dynamixel_tutorial
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/phong/catkin_ws/devel/lib 
+Libs: -L/home/parola/ece478-turtlebot/catkin_ws/devel/lib 
 Requires: 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phong/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/parola/ece478-turtlebot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phong/catkin_ws/build
+CMAKE_BINARY_DIR = /home/parola/ece478-turtlebot/catkin_ws/build
 
 # Utility rule file for dynamixel_msgs_generate_messages.
 
@@ -63,10 +63,10 @@ dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/b
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/build
 
 dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/clean:
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_msgs_generate_messages.dir/cmake_clean.cmake
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_msgs_generate_messages.dir/cmake_clean.cmake
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/clean
 
 dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/depend:
-	cd /home/phong/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phong/catkin_ws/src /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs /home/phong/catkin_ws/build /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parola/ece478-turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parola/ece478-turtlebot/catkin_ws/src /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs /home/parola/ece478-turtlebot/catkin_ws/build /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages.dir/depend
 

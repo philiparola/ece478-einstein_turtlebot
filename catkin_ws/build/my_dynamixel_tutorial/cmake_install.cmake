@@ -1,8 +1,8 @@
-# Install script for directory: /home/phong/catkin_ws/src/my_dynamixel_tutorial
+# Install script for directory: /home/parola/ece478-turtlebot/catkin_ws/src/my_dynamixel_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/phong/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/parola/ece478-turtlebot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/phong/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorial.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_dynamixel_tutorial/cmake" TYPE FILE FILES
-    "/home/phong/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorialConfig.cmake"
-    "/home/phong/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorialConfig-version.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorialConfig.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/catkin_generated/installspace/my_dynamixel_tutorialConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_dynamixel_tutorial" TYPE FILE FILES "/home/phong/catkin_ws/src/my_dynamixel_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_dynamixel_tutorial" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/src/my_dynamixel_tutorial/package.xml")
 endif()
 

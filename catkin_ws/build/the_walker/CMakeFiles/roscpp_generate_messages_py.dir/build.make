@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phong/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/parola/ece478-turtlebot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phong/catkin_ws/build
+CMAKE_BINARY_DIR = /home/parola/ece478-turtlebot/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -63,10 +63,10 @@ the_walker/CMakeFiles/roscpp_generate_messages_py.dir/build: roscpp_generate_mes
 .PHONY : the_walker/CMakeFiles/roscpp_generate_messages_py.dir/build
 
 the_walker/CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	cd /home/phong/catkin_ws/build/the_walker && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/the_walker && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : the_walker/CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 the_walker/CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/phong/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phong/catkin_ws/src /home/phong/catkin_ws/src/the_walker /home/phong/catkin_ws/build /home/phong/catkin_ws/build/the_walker /home/phong/catkin_ws/build/the_walker/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parola/ece478-turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parola/ece478-turtlebot/catkin_ws/src /home/parola/ece478-turtlebot/catkin_ws/src/the_walker /home/parola/ece478-turtlebot/catkin_ws/build /home/parola/ece478-turtlebot/catkin_ws/build/the_walker /home/parola/ece478-turtlebot/catkin_ws/build/the_walker/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : the_walker/CMakeFiles/roscpp_generate_messages_py.dir/depend
 

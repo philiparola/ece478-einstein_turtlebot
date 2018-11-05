@@ -43,48 +43,48 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phong/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/parola/ece478-turtlebot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phong/catkin_ws/build
+CMAKE_BINARY_DIR = /home/parola/ece478-turtlebot/catkin_ws/build
 
 # Utility rule file for dynamixel_msgs_generate_messages_eus.
 
 # Include the progress variables for this target.
 include dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/progress.make
 
-dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l
-dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l
-dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l
-dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l
+dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l
+dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l
+dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l
+dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l
 
 
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from dynamixel_msgs/MotorState.msg"
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg -Idynamixel_msgs:/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from dynamixel_msgs/MotorStateList.msg"
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg -Idynamixel_msgs:/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
 
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/JointState.msg
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from dynamixel_msgs/JointState.msg"
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/JointState.msg -Idynamixel_msgs:/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from dynamixel_msgs/MotorState.msg"
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg -Idynamixel_msgs:/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
 
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorState.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from dynamixel_msgs/MotorStateList.msg"
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/MotorStateList.msg -Idynamixel_msgs:/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/JointState.msg
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp code from dynamixel_msgs/JointState.msg"
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg/JointState.msg -Idynamixel_msgs:/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p dynamixel_msgs -o /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg
 
-/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/phong/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for dynamixel_msgs"
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs dynamixel_msgs std_msgs
+/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l: /opt/ros/kinetic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating EusLisp manifest code for dynamixel_msgs"
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs dynamixel_msgs std_msgs
 
 dynamixel_msgs_generate_messages_eus: dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus
-dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l
-dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l
-dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l
-dynamixel_msgs_generate_messages_eus: /home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l
+dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l
+dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l
+dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l
+dynamixel_msgs_generate_messages_eus: /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/manifest.l
 dynamixel_msgs_generate_messages_eus: dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/build.make
 
 .PHONY : dynamixel_msgs_generate_messages_eus
@@ -95,10 +95,10 @@ dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.d
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/build
 
 dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/clean:
-	cd /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs && $(CMAKE_COMMAND) -P CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/clean
 
 dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/depend:
-	cd /home/phong/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phong/catkin_ws/src /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_msgs /home/phong/catkin_ws/build /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs /home/phong/catkin_ws/build/dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parola/ece478-turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parola/ece478-turtlebot/catkin_ws/src /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_msgs /home/parola/ece478-turtlebot/catkin_ws/build /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs /home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_eus.dir/depend
 

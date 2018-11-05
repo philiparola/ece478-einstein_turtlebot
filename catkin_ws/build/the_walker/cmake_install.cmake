@@ -1,8 +1,8 @@
-# Install script for directory: /home/phong/catkin_ws/src/the_walker
+# Install script for directory: /home/parola/ece478-turtlebot/catkin_ws/src/the_walker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/phong/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/parola/ece478-turtlebot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/phong/catkin_ws/build/the_walker/catkin_generated/installspace/the_walker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/build/the_walker/catkin_generated/installspace/the_walker.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/the_walker/cmake" TYPE FILE FILES
-    "/home/phong/catkin_ws/build/the_walker/catkin_generated/installspace/the_walkerConfig.cmake"
-    "/home/phong/catkin_ws/build/the_walker/catkin_generated/installspace/the_walkerConfig-version.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/the_walker/catkin_generated/installspace/the_walkerConfig.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/the_walker/catkin_generated/installspace/the_walkerConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/the_walker" TYPE FILE FILES "/home/phong/catkin_ws/src/the_walker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/the_walker" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/src/the_walker/package.xml")
 endif()
 

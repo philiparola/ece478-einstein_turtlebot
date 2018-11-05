@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dynamixel_controllers_generate_messages_py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_StopController.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_StartController.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetSpeed.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetComplianceSlope.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetCompliancePunch.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_RestartController.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetTorqueLimit.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetComplianceMargin.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_TorqueEnable.py"
-  "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/__init__.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetTorqueLimit.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_RestartController.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetComplianceSlope.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetCompliancePunch.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetSpeed.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_StopController.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_TorqueEnable.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_StartController.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetComplianceMargin.py"
+  "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

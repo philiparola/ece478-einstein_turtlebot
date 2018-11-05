@@ -1,0 +1,8 @@
+source /home/parola/ece478-turtlebot/catkin_ws/devel/setup.bash
+chmod a+rw /dev/ttyUSB0
+	Might need to sudo apt-get install ros-<distro>-dynamixel-controllers
+roslaunch my_dynamixel_tutorial controller_manager.launch
+
+roslaunch my_dynamixel_tutorial start_all_motor_controller.launch
+
+rostopic echo /motor_states/pan_tilt_port

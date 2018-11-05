@@ -1,8 +1,8 @@
-# Install script for directory: /home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers
+# Install script for directory: /home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/phong/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/parola/ece478-turtlebot/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,81 +34,81 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/srv" TYPE FILE FILES
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/RestartController.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceMargin.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetCompliancePunch.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetComplianceSlope.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetSpeed.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/SetTorqueLimit.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StartController.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/StopController.srv"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/srv/TorqueEnable.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/safe_execute_install.cmake")
+  include("/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/cmake" TYPE FILE FILES "/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/cmake" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/include/dynamixel_controllers")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_controllers")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/share/roseus/ros/dynamixel_controllers")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_controllers")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/share/common-lisp/ros/dynamixel_controllers")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_controllers")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/share/gennodejs/ros/dynamixel_controllers")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_controllers")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers" REGEX "/\\_\\_init\\_\\_\\.py$" EXCLUDE REGEX "/\\_\\_init\\_\\_\\.pyc$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers" FILES_MATCHING REGEX "/home/phong/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/.+/__init__.pyc?$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers" FILES_MATCHING REGEX "/home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/.+/__init__.pyc?$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/cmake" TYPE FILE FILES "/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/cmake" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllers-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers/cmake" TYPE FILE FILES
-    "/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllersConfig.cmake"
-    "/home/phong/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllersConfig-version.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllersConfig.cmake"
+    "/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/catkin_generated/installspace/dynamixel_controllersConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers" TYPE FILE FILES "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers" TYPE FILE FILES "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers" TYPE DIRECTORY FILES "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dynamixel_controllers" TYPE DIRECTORY FILES "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/dynamixel_controllers" TYPE PROGRAM FILES
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/nodes/controller_manager.py"
-    "/home/phong/catkin_ws/src/dynamixel_motor/dynamixel_controllers/nodes/controller_spawner.py"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/nodes/controller_manager.py"
+    "/home/parola/ece478-turtlebot/catkin_ws/src/dynamixel_motor/dynamixel_controllers/nodes/controller_spawner.py"
     )
 endif()
 

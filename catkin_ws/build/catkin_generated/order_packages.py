@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/home/phong/catkin_ws/src"
+source_root_dir = "/home/parola/ece478-turtlebot/catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/phong/catkin_ws/devel;/home/phong/ws_moveit/devel;/opt/ros/kinetic".split(';') if "/home/phong/catkin_ws/devel;/home/phong/ws_moveit/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/parola/ece478-turtlebot/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/parola/ece478-turtlebot/catkin_ws/devel;/opt/ros/kinetic" != "" else []

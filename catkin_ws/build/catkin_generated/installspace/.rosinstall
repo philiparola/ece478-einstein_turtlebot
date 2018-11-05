@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/phong/catkin_ws/install/setup.sh
+    local-name: /home/parola/ece478-turtlebot/catkin_ws/install/setup.sh

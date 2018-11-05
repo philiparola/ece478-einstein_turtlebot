@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/phong/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/parola/ece478-turtlebot/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/phong/catkin_ws/build
+CMAKE_BINARY_DIR = /home/parola/ece478-turtlebot/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build: 
 .PHONY : my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 
 my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean:
-	cd /home/phong/catkin_ws/build/my_dynamixel_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/clean
 
 my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend:
-	cd /home/phong/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/phong/catkin_ws/src /home/phong/catkin_ws/src/my_dynamixel_tutorial /home/phong/catkin_ws/build /home/phong/catkin_ws/build/my_dynamixel_tutorial /home/phong/catkin_ws/build/my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/parola/ece478-turtlebot/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/parola/ece478-turtlebot/catkin_ws/src /home/parola/ece478-turtlebot/catkin_ws/src/my_dynamixel_tutorial /home/parola/ece478-turtlebot/catkin_ws/build /home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial /home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_dynamixel_tutorial/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/depend
 
