@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "my_dynamixel_tutorial")
 set(my_dynamixel_tutorial_VERSION "0.0.0")
-set(my_dynamixel_tutorial_MAINTAINER "phong <phong@todo.todo>")
+set(my_dynamixel_tutorial_MAINTAINER "Scott Matsuo <k10scmats@gmail.com>")
 set(my_dynamixel_tutorial_PACKAGE_FORMAT "2")
 set(my_dynamixel_tutorial_BUILD_DEPENDS "dynamixel_controllers" "roscpp" "rospy" "std_msgs")
 set(my_dynamixel_tutorial_BUILD_EXPORT_DEPENDS "dynamixel_controllers" "roscpp" "rospy" "std_msgs")

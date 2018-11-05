@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "the_walker")
 set(the_walker_VERSION "0.0.0")
-set(the_walker_MAINTAINER "phong <phong@todo.todo>")
+set(the_walker_MAINTAINER "Scott Matsuo <k10scmats@gmail.com>")
 set(the_walker_PACKAGE_FORMAT "2")
 set(the_walker_BUILD_DEPENDS "dynamixel_controllers" "roscpp" "rospy" "std_msgs")
 set(the_walker_BUILD_EXPORT_DEPENDS "dynamixel_controllers" "roscpp" "rospy" "std_msgs")
