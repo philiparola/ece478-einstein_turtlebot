@@ -1,0 +1,6 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+    <node name="gestures.py" pkg="gesture_controls" type="gestures.py" required="true" output="screen">
+    </node>
+</launch>

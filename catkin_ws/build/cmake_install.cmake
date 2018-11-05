@@ -123,6 +123,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_controllers/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/dynamixel_motor/dynamixel_msgs/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/parola/ece478-turtlebot/catkin_ws/build/face_detection/cmake_install.cmake")
+  include("/home/parola/ece478-turtlebot/catkin_ws/build/gesture_controls/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/the_walker/cmake_install.cmake")
 

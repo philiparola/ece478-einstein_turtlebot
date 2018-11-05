@@ -1,0 +1,8 @@
+prefix=/home/parola/ece478-turtlebot/catkin_ws/devel
+
+Name: face_detection
+Description: Description of face_detection
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/parola/ece478-turtlebot/catkin_ws/devel/lib 
+Requires: 
