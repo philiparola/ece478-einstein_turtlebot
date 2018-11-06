@@ -6,7 +6,7 @@ from std_msgs.msg import Float64
 import time
 
 face_angle_global = None
-
+deadzone = 100
 
 def callback(data):
 	global face_angle_global
@@ -76,7 +76,7 @@ rate = rospy.Rate(10) # 10hz
 
 while not rospy.is_shutdown():
 	rospy.Subscriber("face_angle", Int32, callback)
-	if -100 < face_angle_global < 100:
+	if -deadzone < face_angle_global < deadzone:
 		if face_angle_global is 0:
  			pass
 		elif face_angle_global < 0:

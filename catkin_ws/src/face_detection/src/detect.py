@@ -10,6 +10,8 @@ from std_msgs.msg import Int32
 cascPath = "haarcascade_frontalface_default.xml"
 webcam = cv2.VideoCapture(0)
 webcamWidth = webcam.get(3)
+webcamHeight = webcam.get(4)
+deadzone = 100
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
@@ -51,6 +53,8 @@ while webcam.isOpened():
     # Draw a rectangle around the faces
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        cv2.line(frame, (x+(w/2),y), (x+(w/2),y-(h/8)),(0,255,0), 2)
+        cv2.line(frame, (x+(w/2),y+h), (x+(w/2),y+h+(h/8)),(0,255,0), 2)
         if (w*h) > largestFaceSize:
             largestFaceSize = (w*h)
             if (x+(w/2)) > webcamWidth/2:
@@ -58,12 +62,17 @@ while webcam.isOpened():
             else:
                 largestFaceLocation = ((x+(w/2)) - (webcamWidth/2))
 
-    print("Face is {0} degrees from the center!".format(largestFaceLocation))
     rospy.loginfo(largestFaceLocation)
     pub.publish(largestFaceLocation)
     rate.sleep()
 
     if displayPresent is True:
+        cv2.line(frame, (int(webcamWidth/2)+deadzone,0),
+                 (int(webcamWidth/2)+deadzone,int(webcamHeight)), (0,0,255), 3)
+        cv2.line(frame, (int(webcamWidth/2)-deadzone,0),
+                 (int(webcamWidth/2)-deadzone,int(webcamHeight)), (0,0,255), 3)
+        cv2.line(frame, (int(webcamWidth/2),0),
+                 (int(webcamWidth/2),int(webcamHeight)), (255,0,0), 2)
         cv2.imshow("Faces found", frame)
         if cv2.waitKey(10) == 27:
             # Hit esc
