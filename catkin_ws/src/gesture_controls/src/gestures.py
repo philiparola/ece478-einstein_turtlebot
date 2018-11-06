@@ -6,12 +6,16 @@ from std_msgs.msg import Float64
 import time
 
 face_angle_global = None
+face_count_global = None
 deadzone = 100
 
-def callback(data):
+def angle_callback(data):
 	global face_angle_global
 	face_angle_global = data.data
-	# rospy.loginfo(rospy.get_caller_id() + "I heard %s", data.data)
+
+def count_callback(data):
+    global face_count_global
+    face_count_global = data.data
 
 def leftWave():
 	print("LEFT")
@@ -71,13 +75,16 @@ def rightWave():
 
 
 rospy.init_node('gesture_control', anonymous=True)
-sub = rospy.Subscriber("face_angle", Int32, callback)
+faceAngle_sub = rospy.Subscriber("face_angle", Int32, angle_callback)
+faceCount_sub = rospy.Subscriber("face_count", Int32, count_callback)
+
 rate = rospy.Rate(10) # 10hz
 
 while not rospy.is_shutdown():
-	rospy.Subscriber("face_angle", Int32, callback)
+	rospy.Subscriber("face_angle", Int32, angle_callback)
+	rospy.Subscriber("face_count", Int32, count_callback)
 	if -deadzone < face_angle_global < deadzone:
-		if face_angle_global is 0:
+		if face_count_global is 0:
  			pass
 		elif face_angle_global < 0:
 			leftWave()

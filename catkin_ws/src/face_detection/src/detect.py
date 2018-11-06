@@ -27,7 +27,8 @@ except:
     displayPresent = False
 
 # ROS setup
-pub = rospy.Publisher('face_angle', Int32, queue_size=10)
+faceAngle_pub = rospy.Publisher('face_angle', Int32, queue_size=10)
+faceCount_pub = rospy.Publisher('face_count', Int32, queue_size=10)
 rospy.init_node('talker', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
@@ -45,8 +46,6 @@ while webcam.isOpened():
         #flags = cv2.CV_HAAR_SCALE_IMAGE
     )
 
-    #print("Found {0} faces!".format(len(faces)))
-
     largestFaceSize = 0
     largestFaceLocation = 0
 
@@ -63,7 +62,9 @@ while webcam.isOpened():
                 largestFaceLocation = ((x+(w/2)) - (webcamWidth/2))
 
     rospy.loginfo(largestFaceLocation)
-    pub.publish(largestFaceLocation)
+    rospy.loginfo(len(faces))
+    faceAngle_pub.publish(largestFaceLocation)
+    faceCount_pub.publish(len(faces))
     rate.sleep()
 
     if displayPresent is True:
