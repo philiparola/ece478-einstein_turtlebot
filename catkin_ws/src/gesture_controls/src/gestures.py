@@ -7,7 +7,7 @@ import time
 
 face_angle_global = None
 face_count_global = None
-deadzone = 100
+deadzone = 200
 
 def angle_callback(data):
 	global face_angle_global
@@ -37,7 +37,7 @@ def leftWave():
 	LArmShoulderHori.publish(0.84)
 	LArmElbowVert.publish(1.05)
 	LArmElbowHori.publish(0)
-	NeckHori.publish(-0.94)
+	NeckHori.publish(0.95)
 	NeckVert.publish(0.8)	
 	time.sleep(1)
 	LArmElbowHori.publish(1.05)
@@ -64,7 +64,7 @@ def rightWave():
 	LArmShoulderHori.publish(1.89)
 	LArmElbowVert.publish(1.05)
 	LArmElbowHori.publish(0)
-	NeckHori.publish(0.95)
+	NeckHori.publish(-0.94)
 	NeckVert.publish(0.8)	
 	time.sleep(1)
 	RArmElbowHori.publish(0)

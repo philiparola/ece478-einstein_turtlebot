@@ -11,7 +11,7 @@ cascPath = "haarcascade_frontalface_default.xml"
 webcam = cv2.VideoCapture(0)
 webcamWidth = webcam.get(3)
 webcamHeight = webcam.get(4)
-deadzone = 100
+deadzone = 200
 
 # Create the haar cascade
 faceCascade = cv2.CascadeClassifier(cascPath)
