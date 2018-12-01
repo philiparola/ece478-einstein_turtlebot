@@ -4,7 +4,7 @@ The Einstein TurtleBot for ECE478@PSU (Robotics I), Fall 2018
 ## Authors
 [@philiparola](https://github.com/philiparola) 
 [@k10scmats](https://github.com/k10scmats) 
-
+pip3 install ReText
 ## License
 All original code produced by this team is licensed under the GPLv2.  All code from previous terms, outside projects, etc. are licensed under their own terms.
 
@@ -100,4 +100,116 @@ roslaunch my_dynamixel_tutorial controller_manager.launch
 roslaunch my_dynamixel_tutorial start_all_motor_controller.launch
 roslaunch face_detection face_detection.launch
 roslaunch gesture_controls gesture_controls.launch
+```
+
+
+
+## Project 2
+Please note that I will keep updating this announcement!
+
+Project 2 is due on Dec 7th. Friday at 5:00 PM
+
+Project 2 is 30% of your final grade.
+
+Project 2 Grading:
+
+* ROS Implementation: 30 points
+* Speech Recognition with Dialogflow: 10 points
+* Speech Synthesis with Amazon Polly: 10 points
+* Demo : 10 points
+* Team Work: 10 points
+* Project Report and Deliverables: 30 points
+
+You can find more information about project 2 grading, the requirements, and demo below.
+
+### Project 2 Requirements:
+
+For project 1 you successfully built robots that can do different kinds of motions such as moving forward, backward, left, right, turning around, dancing, drumming etc.  For project 2 you must implement all these functions in ROS. (30 points) 
+
+* I should be able to control your robot by publishing to ROS topics
+* I should be able to see the current state of the robot by subscribing to topics. Any sensor data, positions of all the actuators etc..
+* Your ROS project must be modular which means that you have to make sure that each node responsible for doing only one job and they should not depend on each other. If you really believe that it is necessary and there is no other way to do it, maybe you can do two things in one node. DO NOT try to implement everything in one node. For example:
+    * node1: responsible for motion: subscribes to a topic/s and moves the robot forward, backward, left, right etc,
+    * node2: responsible for speech recognition,
+    * node3: responsible for speech synthesis etc.,
+    * node 4: responsible for reading sensors and publishing sensor values to topics
+    * etc...
+* When you create topics, you should pick good names
+* You can use your computer or a Raspberry Pi to use ROS 
+    You must implement speech recognition into your robot by using Google Dialogflow. (10 points)
+* You are going to create a ROS node or a service to complete this part.
+* You will create several dialogs using Dialogflow.
+* I should be able to have a small talk with your robot.
+* A Part of Lecture 9 is going to be about Speech Recognition and Dialog Flow.
+* Also, I recorded a video lecture about How to use Dialogflow with Python? I am going to post it on D2L on Tuesday.
+
+
+
+You must implement speech synthesis into your robot by using Amazon Polly.  (10 points)
+
+* Your robot must be able to speak when I publish any string to a topic
+* You are going to create a ROS node or a service to complete this part.
+* You must choose a voice that fits the character of your robot.
+* A Part of Lecture 9 is going to be about Speech Synthesis and Amazon Polly.
+* Also, I recorded a video lecture about How to use Amazon Polly with Python? I am going to post it D2L on Tuesday.
+
+Demo and Presentation (10 points) :
+
+* You must play a small part in Dr. Perkowski's Robot Theater Scripts. (I will post more information about this requirement)
+* You must work with another team to complete the Robot Theater requirement.
+* You have 30 minutes to complete your     ROS Implementation: 30 points
+    * Speech Recognition with Dialogflow: 10 points
+    * Speech Synthesis with Amazon Polly: 10 points
+    * Demo : 10 points
+    * Team Work: 10 points
+    * Project Report and Deliverables: 30 points    ROS Implementation: 30 points
+    * Speech Recognition with Dialogflow: 10 points
+    * Speech Synthesis with Amazon Polly: 10 points
+    * Demo : 10 points
+    * Team Work: 10 points
+    * Project Report and Deliverables: 30 points    ROS Implementation: 30 points
+    * Speech Recognition with Dialogflow: 10 points
+    * Speech Synthesis with Amazon Polly: 10 points
+    * Demo : 10 points
+    * Team Work: 10 points
+    * Project Report and Deliverables: 30 points
+* If you are late for your demo, you have to wait until the next available demo time to do your demo.
+
+Teamwork is important, so when you demo your project2 each team member must talk about their part in the project (10 points)
+
+You can select your time slot for your demo at TBD.
+
+* Make sure you type your name and your project partner's full names when you submit your request.
+    * Ex: Melih Erdogan - Marek Perkowski
+* It is enough if only one team member submits your demo time.
+* You can only choose one timeslot.
+* All team members should come to the demo. 
+* Please make sure that you are ready to do your demo before your demo time and do not use your demo time to set up your robots and computers
+
+Project Deliverables:  (30 points) - Dec 7th, Friday is the due date for project deliverables 
+
+* Submit your project files on D2L in a zip file. (TeamName_Robotics1_Fall2018_Project2.zip)
+    One submission from each team is enough.
+* PowerPoint Slides
+* Porject2 Report (word and .pdf files)
+* Pictures
+* Videos (Links Only)
+* You must create a GitHub repository for your project and all project files (Add the link to your repository into your project report)
+* Use this repository as an example.
+    https://github.com/mlherd/sample_project
+
+Melih
+
+Teaching Assistant
+
+### Project 2 Setup for more libraries
+This part of the project utilizes Amazon Polly and Google DialogFlow for it's speech engine.  These take a little bit of work to install.
+```shell
+# You may run the following remove operations if you encounter errors
+sudo apt remove python-pyasn1-modules
+sudo pip2 uninstall pyasn
+sudo pip2 install dialogflow
+sudo apt-get install python-pyaudio
+# if libsound.so not found YOU MAY HAVE TO RUN sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
+export GOOGLE_APPLICATION_CREDENTIALS="/home/parola/turtlebot-1cb15-3ecbc66bd3e8.json"
 ```
