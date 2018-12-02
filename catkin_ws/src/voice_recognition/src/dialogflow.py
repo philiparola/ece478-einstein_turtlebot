@@ -32,7 +32,7 @@ def dialogflow_main():
     filepath = homedir
     user_input = os.path.join(filepath, 'user_input.wav')
     result = detect_intent_audio("turtlebot-1cb15", "1-1-1-1-1", user_input, 'en-US')
-    print result
+    return result
 
 if __name__ == '__main__':
     dialogflow_main()

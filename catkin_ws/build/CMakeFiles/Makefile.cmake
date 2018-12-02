@@ -37,6 +37,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "my_dynamixel_tutorial/catkin_generated/package.cmake"
   "the_walker/catkin_generated/ordered_paths.cmake"
   "the_walker/catkin_generated/package.cmake"
+  "voice_recognition/catkin_generated/ordered_paths.cmake"
+  "voice_recognition/catkin_generated/package.cmake"
   "/home/parola/ece478-turtlebot/catkin_ws/devel/share/dynamixel_controllers/cmake/dynamixel_controllers-msg-extras.cmake"
   "/home/parola/ece478-turtlebot/catkin_ws/devel/share/dynamixel_controllers/cmake/dynamixel_controllers-msg-paths.cmake"
   "/home/parola/ece478-turtlebot/catkin_ws/devel/share/dynamixel_controllers/cmake/dynamixel_controllersConfig-version.cmake"
@@ -70,6 +72,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/parola/ece478-turtlebot/catkin_ws/src/my_dynamixel_tutorial/package.xml"
   "/home/parola/ece478-turtlebot/catkin_ws/src/the_walker/CMakeLists.txt"
   "/home/parola/ece478-turtlebot/catkin_ws/src/the_walker/package.xml"
+  "/home/parola/ece478-turtlebot/catkin_ws/src/voice_recognition/CMakeLists.txt"
+  "/home/parola/ece478-turtlebot/catkin_ws/src/voice_recognition/package.xml"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlib-msg-extras.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig-version.cmake"
   "/opt/ros/kinetic/share/actionlib/cmake/actionlibConfig.cmake"
@@ -265,6 +269,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gesture_controls/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_dynamixel_tutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
   "the_walker/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "voice_recognition/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

@@ -3275,6 +3275,24 @@ the_walker/preinstall:
 .PHONY : the_walker/preinstall
 
 #=============================================================================
+# Directory level rules for directory voice_recognition
+
+# Convenience name for "all" pass in the directory.
+voice_recognition/all:
+
+.PHONY : voice_recognition/all
+
+# Convenience name for "clean" pass in the directory.
+voice_recognition/clean:
+
+.PHONY : voice_recognition/clean
+
+# Convenience name for "preinstall" pass in the directory.
+voice_recognition/preinstall:
+
+.PHONY : voice_recognition/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

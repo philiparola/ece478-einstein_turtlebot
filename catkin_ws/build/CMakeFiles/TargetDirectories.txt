@@ -178,3 +178,10 @@
 /home/parola/ece478-turtlebot/catkin_ws/build/the_walker/CMakeFiles/install/local.dir
 /home/parola/ece478-turtlebot/catkin_ws/build/the_walker/CMakeFiles/test.dir
 /home/parola/ece478-turtlebot/catkin_ws/build/the_walker/CMakeFiles/edit_cache.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/list_install_components.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/install.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/rebuild_cache.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/install/strip.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/install/local.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/test.dir
+/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/CMakeFiles/edit_cache.dir

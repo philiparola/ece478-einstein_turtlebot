@@ -127,6 +127,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/parola/ece478-turtlebot/catkin_ws/build/gesture_controls/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/my_dynamixel_tutorial/cmake_install.cmake")
   include("/home/parola/ece478-turtlebot/catkin_ws/build/the_walker/cmake_install.cmake")
+  include("/home/parola/ece478-turtlebot/catkin_ws/build/voice_recognition/cmake_install.cmake")
 
 endif()
 
