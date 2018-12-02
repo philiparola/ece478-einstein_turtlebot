@@ -4,7 +4,7 @@ The Einstein TurtleBot for ECE478@PSU (Robotics I), Fall 2018
 ## Authors
 [@philiparola](https://github.com/philiparola) 
 [@k10scmats](https://github.com/k10scmats) 
-pip3 install ReText
+
 ## License
 All original code produced by this team is licensed under the GPLv2.  All code from previous terms, outside projects, etc. are licensed under their own terms.
 
@@ -105,7 +105,7 @@ roslaunch gesture_controls gesture_controls.launch
 
 
 ## Project 2
-Please note that I will keep updating this announcement!
+ Please note that I will keep updating this announcement!
 
 Project 2 is due on Dec 7th. Friday at 5:00 PM
 
@@ -157,17 +157,8 @@ Demo and Presentation (10 points) :
 
 * You must play a small part in Dr. Perkowski's Robot Theater Scripts. (I will post more information about this requirement)
 * You must work with another team to complete the Robot Theater requirement.
-* You have 30 minutes to complete your     ROS Implementation: 30 points
-    * Speech Recognition with Dialogflow: 10 points
-    * Speech Synthesis with Amazon Polly: 10 points
-    * Demo : 10 points
-    * Team Work: 10 points
-    * Project Report and Deliverables: 30 points    ROS Implementation: 30 points
-    * Speech Recognition with Dialogflow: 10 points
-    * Speech Synthesis with Amazon Polly: 10 points
-    * Demo : 10 points
-    * Team Work: 10 points
-    * Project Report and Deliverables: 30 points    ROS Implementation: 30 points
+* You have 30 minutes to complete your demo
+    * ROS Implementation: 30 points
     * Speech Recognition with Dialogflow: 10 points
     * Speech Synthesis with Amazon Polly: 10 points
     * Demo : 10 points
@@ -212,4 +203,19 @@ sudo pip2 install dialogflow
 sudo apt-get install python-pyaudio
 # if libsound.so not found YOU MAY HAVE TO RUN sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
 export GOOGLE_APPLICATION_CREDENTIALS="/home/parola/turtlebot-1cb15-3ecbc66bd3e8.json"
+```
+
+## Running Project 2
+Project 2 consists of two parts; robot theater, and interactive mode.
+
+### Robot Theater
+Robot Theater mode is where the robot uses Amazon Polly to speak lines from a play alongside another robot.  You must be connected to a LAN to run in this mode, because the director controls both robots speaking lines.
+TODO: Network layout, how to launch
+
+### Interactive Mode 
+The robot utilizes Amazon Polly and Google DialogFlow to interact with people.  The robot will speak in response to people, and gesture depending on what has been said.
+To run interactive mode:
+```shell
+roslaunch voice_recognition voice_recognition.launch
+roslaunch voice_synthesis voice_synthesis.launch
 ```
