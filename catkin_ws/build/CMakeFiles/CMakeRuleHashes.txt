@@ -11,6 +11,7 @@ b983c1c4a6eaa3077fa7e7672dc85966 /home/parola/ece478-turtlebot/catkin_ws/devel/i
 f5fce513bdf7a5737acbba9149360af0 /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_msgs/JointState.h
 9b885332c2689f68f78ab13bb796e58f /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_msgs/MotorState.h
 c1aa66c597089e4af885277ce71a8552 /home/parola/ece478-turtlebot/catkin_ws/devel/include/dynamixel_msgs/MotorStateList.h
+e153cf25e0b0cb8687900ef37e8c91bb /home/parola/ece478-turtlebot/catkin_ws/devel/include/speech_synthesis/synthesis_service.h
 9885d0bef3ba3918d608fa2893c28135 /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_RestartController.py
 61cef6c5306ee5891d195e9634874f3a /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetComplianceMargin.py
 e87bf7564657c805876aaed0941ad827 /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_controllers/srv/_SetCompliancePunch.py
@@ -25,6 +26,8 @@ dd171cb1ba954b1a8d756bb0ecf0f6ca /home/parola/ece478-turtlebot/catkin_ws/devel/l
 18902776cf66d8dcd182b01dc9998d9b /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_msgs/msg/_MotorState.py
 db3660817703ad9871aeb6ec5ba0326a /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_msgs/msg/_MotorStateList.py
 8392268ace4cec54fef4f0df882d954b /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/dynamixel_msgs/msg/__init__.py
+bb1bc4b3fc95dc2b1b4d8fccbc481fd8 /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/speech_synthesis/srv/__init__.py
+741f627ba274a0fadb4b0e74b7a0ee1d /home/parola/ece478-turtlebot/catkin_ws/devel/lib/python2.7/dist-packages/speech_synthesis/srv/_synthesis_service.py
 676b604ee312ae8ae33152d4659293eb /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_controllers/srv/RestartController.lisp
 1faa0333d083fdc8fc234313d7b649c8 /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_controllers/srv/SetComplianceMargin.lisp
 d8ec46f7375a7f984571daaa896d9992 /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_controllers/srv/SetCompliancePunch.lisp
@@ -37,6 +40,7 @@ c1d5b2a1be306056e758c7eabec6268c /home/parola/ece478-turtlebot/catkin_ws/devel/s
 bfe19d7f33b565332ce72c5690f5de4c /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_msgs/msg/JointState.lisp
 eb1e28e47a6103bc3337069db4c86dc6 /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_msgs/msg/MotorState.lisp
 86dc8416e45c288b5d8e30253494aa16 /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/dynamixel_msgs/msg/MotorStateList.lisp
+a0c332310a4d6d0177e488dc94754e40 /home/parola/ece478-turtlebot/catkin_ws/devel/share/common-lisp/ros/speech_synthesis/srv/synthesis_service.lisp
 dfcfbde75b56713c113e7bfc6f490452 /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_controllers/srv/RestartController.js
 33aac47d23756351f5f4b0950a568f1c /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_controllers/srv/SetComplianceMargin.js
 dddfa3c89a6874467effaadf412fcdea /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_controllers/srv/SetCompliancePunch.js
@@ -49,6 +53,7 @@ cd799137d11c73aa09ce527eb2e10dc4 /home/parola/ece478-turtlebot/catkin_ws/devel/s
 28d5a003277788fb1d77e1d1f8725d0f /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_msgs/msg/JointState.js
 709732cd3386c2ba4ce603432418b9ae /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_msgs/msg/MotorState.js
 b9700bdf59d68a40f3e143078ad2f772 /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/dynamixel_msgs/msg/MotorStateList.js
+f404e39d6b16251251b31c7ad63fba4a /home/parola/ece478-turtlebot/catkin_ws/devel/share/gennodejs/ros/speech_synthesis/srv/synthesis_service.js
 2b059f81ce6ef7c42fd455a86b904c73 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_controllers/manifest.l
 60734f7b6e55ceb1d3926535ee62fe24 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_controllers/srv/RestartController.l
 e6808d2dc9a7554f3b9101db83a5d563 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_controllers/srv/SetComplianceMargin.l
@@ -63,6 +68,8 @@ e14bba66a310aa478feb660a5f74203e /home/parola/ece478-turtlebot/catkin_ws/devel/s
 9b02a385c25cd3c1eb45db550e44d844 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/JointState.l
 d5ba3d1dc2c52152b2fba350ee4bc515 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorState.l
 c3d1d851a318f29cdffdb2db886a6be3 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/dynamixel_msgs/msg/MotorStateList.l
+15612fbf844866d3b4da3639a5101329 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/speech_synthesis/manifest.l
+f94514bc15a87ddb2eacc7b79bf1e6f0 /home/parola/ece478-turtlebot/catkin_ws/devel/share/roseus/ros/speech_synthesis/srv/synthesis_service.l
 e4137b86f83bb29f3de51f1bceb68fbc CMakeFiles/clean_test_results
 a5d78847dd5cd6010f27a14b2c1eac04 dynamixel_motor/dynamixel_controllers/CMakeFiles/_dynamixel_controllers_generate_messages_check_deps_RestartController
 1f7af4640ff7ce2692630512d18867fc dynamixel_motor/dynamixel_controllers/CMakeFiles/_dynamixel_controllers_generate_messages_check_deps_SetComplianceMargin
@@ -86,3 +93,9 @@ e88801f77a3eb031a2d49b13ef0d379f dynamixel_motor/dynamixel_msgs/CMakeFiles/dynam
 e88801f77a3eb031a2d49b13ef0d379f dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_lisp
 e88801f77a3eb031a2d49b13ef0d379f dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_nodejs
 e88801f77a3eb031a2d49b13ef0d379f dynamixel_motor/dynamixel_msgs/CMakeFiles/dynamixel_msgs_generate_messages_py
+c525388fc76ea22ef3fe30f4bde6d49e speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service
+6120a0c5d87553221fd5540a0de19fbd speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp
+6120a0c5d87553221fd5540a0de19fbd speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus
+6120a0c5d87553221fd5540a0de19fbd speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp
+6120a0c5d87553221fd5540a0de19fbd speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs
+6120a0c5d87553221fd5540a0de19fbd speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py

@@ -2250,6 +2250,433 @@ gesture_controls/preinstall:
 .PHONY : gesture_controls/preinstall
 
 #=============================================================================
+# Directory level rules for directory speech_synthesis
+
+# Convenience name for "all" pass in the directory.
+speech_synthesis/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all
+
+.PHONY : speech_synthesis/all
+
+# Convenience name for "clean" pass in the directory.
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/clean
+speech_synthesis/clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/clean
+
+.PHONY : speech_synthesis/clean
+
+# Convenience name for "preinstall" pass in the directory.
+speech_synthesis/preinstall:
+
+.PHONY : speech_synthesis/preinstall
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_genpy"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/rule
+
+# Convenience name for target.
+speech_synthesis_genpy: speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/rule
+
+.PHONY : speech_synthesis_genpy
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all: dynamixel_motor/dynamixel_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=81,82 "Built target speech_synthesis_generate_messages_py"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages_py: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/rule
+
+.PHONY : speech_synthesis_generate_messages_py
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_gencpp"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/rule
+
+# Convenience name for target.
+speech_synthesis_gencpp: speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/rule
+
+.PHONY : speech_synthesis_gencpp
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_geneus"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/rule
+
+# Convenience name for target.
+speech_synthesis_geneus: speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/rule
+
+.PHONY : speech_synthesis_geneus
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all:
+	$(MAKE) -f speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build.make speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build.make speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target _speech_synthesis_generate_messages_check_deps_synthesis_service"
+.PHONY : speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/rule
+
+# Convenience name for target.
+_speech_synthesis_generate_messages_check_deps_synthesis_service: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/rule
+
+.PHONY : _speech_synthesis_generate_messages_check_deps_synthesis_service
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build.make speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all: dynamixel_motor/dynamixel_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=80 "Built target speech_synthesis_generate_messages_nodejs"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages_nodejs: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/rule
+
+.PHONY : speech_synthesis_generate_messages_nodejs
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_genlisp"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/rule
+
+# Convenience name for target.
+speech_synthesis_genlisp: speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/rule
+
+.PHONY : speech_synthesis_genlisp
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all: dynamixel_motor/dynamixel_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=76 "Built target speech_synthesis_generate_messages_cpp"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages_cpp: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/rule
+
+.PHONY : speech_synthesis_generate_messages_cpp
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all: dynamixel_motor/dynamixel_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=77,78 "Built target speech_synthesis_generate_messages_eus"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages_eus: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/rule
+
+.PHONY : speech_synthesis_generate_messages_eus
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_gennodejs"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/rule
+
+# Convenience name for target.
+speech_synthesis_gennodejs: speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/rule
+
+.PHONY : speech_synthesis_gennodejs
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num= "Built target speech_synthesis_generate_messages"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all
+
+# Include target in all.
+all: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/rule
+
+.PHONY : speech_synthesis_generate_messages
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir
+
+# All Build rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all: dynamixel_motor/dynamixel_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all: speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/all
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/depend
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles --progress-num=79 "Built target speech_synthesis_generate_messages_lisp"
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/parola/ece478-turtlebot/catkin_ws/build/CMakeFiles 0
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+speech_synthesis_generate_messages_lisp: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/rule
+
+.PHONY : speech_synthesis_generate_messages_lisp
+
+# clean rule for target.
+speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/clean:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/clean
+.PHONY : speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Directory level rules for directory my_dynamixel_tutorial
 
 # Convenience name for "all" pass in the directory.

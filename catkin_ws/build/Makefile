@@ -933,6 +933,162 @@ rosgraph_msgs_generate_messages_py/fast:
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named speech_synthesis_genpy
+
+# Build rule for target.
+speech_synthesis_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_genpy
+.PHONY : speech_synthesis_genpy
+
+# fast build rule for target.
+speech_synthesis_genpy/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genpy.dir/build
+.PHONY : speech_synthesis_genpy/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages_py
+
+# Build rule for target.
+speech_synthesis_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages_py
+.PHONY : speech_synthesis_generate_messages_py
+
+# fast build rule for target.
+speech_synthesis_generate_messages_py/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_py.dir/build
+.PHONY : speech_synthesis_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_gencpp
+
+# Build rule for target.
+speech_synthesis_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_gencpp
+.PHONY : speech_synthesis_gencpp
+
+# fast build rule for target.
+speech_synthesis_gencpp/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gencpp.dir/build
+.PHONY : speech_synthesis_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_geneus
+
+# Build rule for target.
+speech_synthesis_geneus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_geneus
+.PHONY : speech_synthesis_geneus
+
+# fast build rule for target.
+speech_synthesis_geneus/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_geneus.dir/build
+.PHONY : speech_synthesis_geneus/fast
+
+#=============================================================================
+# Target rules for targets named _speech_synthesis_generate_messages_check_deps_synthesis_service
+
+# Build rule for target.
+_speech_synthesis_generate_messages_check_deps_synthesis_service: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _speech_synthesis_generate_messages_check_deps_synthesis_service
+.PHONY : _speech_synthesis_generate_messages_check_deps_synthesis_service
+
+# fast build rule for target.
+_speech_synthesis_generate_messages_check_deps_synthesis_service/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build.make speech_synthesis/CMakeFiles/_speech_synthesis_generate_messages_check_deps_synthesis_service.dir/build
+.PHONY : _speech_synthesis_generate_messages_check_deps_synthesis_service/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages_nodejs
+
+# Build rule for target.
+speech_synthesis_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages_nodejs
+.PHONY : speech_synthesis_generate_messages_nodejs
+
+# fast build rule for target.
+speech_synthesis_generate_messages_nodejs/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_nodejs.dir/build
+.PHONY : speech_synthesis_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_genlisp
+
+# Build rule for target.
+speech_synthesis_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_genlisp
+.PHONY : speech_synthesis_genlisp
+
+# fast build rule for target.
+speech_synthesis_genlisp/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_genlisp.dir/build
+.PHONY : speech_synthesis_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages_cpp
+
+# Build rule for target.
+speech_synthesis_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages_cpp
+.PHONY : speech_synthesis_generate_messages_cpp
+
+# fast build rule for target.
+speech_synthesis_generate_messages_cpp/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_cpp.dir/build
+.PHONY : speech_synthesis_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages_eus
+
+# Build rule for target.
+speech_synthesis_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages_eus
+.PHONY : speech_synthesis_generate_messages_eus
+
+# fast build rule for target.
+speech_synthesis_generate_messages_eus/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_eus.dir/build
+.PHONY : speech_synthesis_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_gennodejs
+
+# Build rule for target.
+speech_synthesis_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_gennodejs
+.PHONY : speech_synthesis_gennodejs
+
+# fast build rule for target.
+speech_synthesis_gennodejs/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_gennodejs.dir/build
+.PHONY : speech_synthesis_gennodejs/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages
+
+# Build rule for target.
+speech_synthesis_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages
+.PHONY : speech_synthesis_generate_messages
+
+# fast build rule for target.
+speech_synthesis_generate_messages/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages.dir/build
+.PHONY : speech_synthesis_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named speech_synthesis_generate_messages_lisp
+
+# Build rule for target.
+speech_synthesis_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 speech_synthesis_generate_messages_lisp
+.PHONY : speech_synthesis_generate_messages_lisp
+
+# fast build rule for target.
+speech_synthesis_generate_messages_lisp/fast:
+	$(MAKE) -f speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build.make speech_synthesis/CMakeFiles/speech_synthesis_generate_messages_lisp.dir/build
+.PHONY : speech_synthesis_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named control_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1394,6 +1550,18 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
+	@echo "... speech_synthesis_genpy"
+	@echo "... speech_synthesis_generate_messages_py"
+	@echo "... speech_synthesis_gencpp"
+	@echo "... speech_synthesis_geneus"
+	@echo "... _speech_synthesis_generate_messages_check_deps_synthesis_service"
+	@echo "... speech_synthesis_generate_messages_nodejs"
+	@echo "... speech_synthesis_genlisp"
+	@echo "... speech_synthesis_generate_messages_cpp"
+	@echo "... speech_synthesis_generate_messages_eus"
+	@echo "... speech_synthesis_gennodejs"
+	@echo "... speech_synthesis_generate_messages"
+	@echo "... speech_synthesis_generate_messages_lisp"
 	@echo "... control_msgs_generate_messages_py"
 	@echo "... control_msgs_generate_messages_nodejs"
 	@echo "... control_msgs_generate_messages_lisp"

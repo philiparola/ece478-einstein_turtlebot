@@ -203,6 +203,15 @@ sudo pip2 install dialogflow
 sudo apt-get install python-pyaudio
 # if libsound.so not found YOU MAY HAVE TO RUN sudo apt install libasound-dev portaudio19-dev libportaudio2 libportaudiocpp0
 export GOOGLE_APPLICATION_CREDENTIALS="/home/parola/turtlebot-1cb15-3ecbc66bd3e8.json"
+
+sudo pip install boto3
+sudo pip install awscli
+sudo pip install pygame
+aws configure
+    AWS Access Key ID [None]: SECRET
+    AWS Secret Access Key [None]: SECRET
+    Default region name [None]: us-west-2
+    Default output format [None]: mp3
 ```
 
 ## Running Project 2
@@ -217,5 +226,6 @@ The robot utilizes Amazon Polly and Google DialogFlow to interact with people.  
 To run interactive mode:
 ```shell
 roslaunch voice_recognition voice_recognition.launch
-roslaunch voice_synthesis voice_synthesis.launch
+rosrun speech_synthesis speech.py
+# To test, rosservice call /speech_synthesis 'text'
 ```
