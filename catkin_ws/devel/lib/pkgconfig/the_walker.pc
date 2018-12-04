@@ -1,8 +1,0 @@
-prefix=/home/parola/ece478-turtlebot/catkin_ws/devel
-
-Name: the_walker
-Description: Description of the_walker
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/parola/ece478-turtlebot/catkin_ws/devel/lib 
-Requires: 

@@ -1,8 +1,0 @@
-prefix=/home/parola/ece478-turtlebot/catkin_ws/devel
-
-Name: gesture_controls
-Description: Description of gesture_controls
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/parola/ece478-turtlebot/catkin_ws/devel/lib 
-Requires: 
