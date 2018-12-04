@@ -17,6 +17,8 @@ import rospy
 import boto3
 from pygame import mixer
 
+import pyttsx
+
 polly_client = boto3.Session(
 	aws_access_key_id="AKIAIPRMWBCHKHIPA2OA",                     
 	aws_secret_access_key="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",
@@ -25,6 +27,7 @@ polly_client = boto3.Session(
 mixer.init()
 
 def handle_speech_synthesis(req):
+	'''
 	response = polly_client.synthesize_speech(VoiceId='Joey',
 				OutputFormat='mp3', 
 				Text = str(req))
@@ -33,6 +36,12 @@ def handle_speech_synthesis(req):
 	file.close()
 	mixer.music.load('speech.mp3')
 	mixer.music.play()
+	'''
+	engine = pyttsx.init()
+	#word = str(req)[6:-1]
+	engine.say(str(req)[6:-1])
+	rospy.loginfo(str(req))
+	engine.runAndWait()
 	return 1
 	
 def speech_synthesis_server():
