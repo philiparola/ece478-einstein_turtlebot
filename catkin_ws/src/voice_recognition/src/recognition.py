@@ -4,19 +4,18 @@ import os, sys
 #import record
 import rospy
 import dialogflow
-#from speech_synthesis.srv import *
+from speech_synthesis.srv import synthesis_service
 
-def recognition():
+def recognition(): 
     #record.record()
     os.system("./record.py")
     response = dialogflow.dialogflow_main()
-    #synthesize_voice = rospy.ServiceProxy('speech_synthesis', synthesis_service)
-    #return speech_synthesis()
     if len(response) is 0:
         response = "a"
-    command = "rosservice call \/speech_synthesis \'" + response + "\'"
-    print(command)  # Somehow fixes a type error?
-    os.system(str(command))
+    rospy.loginfo(response)
+    print(response)
+    speech_synthesis = rospy.ServiceProxy('speech_synthesis', synthesis_service)
+    return speech_synthesis(response)
 
 
 if __name__ == '__main__':
