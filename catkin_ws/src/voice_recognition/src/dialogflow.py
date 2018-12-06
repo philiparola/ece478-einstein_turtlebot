@@ -27,10 +27,7 @@ def detect_intent_audio(project_id, session_id, audio_file_path,
     return response.query_result.fulfillment_text
 
 def dialogflow_main():
-    homedir = os.environ['HOME']
-    #filepath = homedir + "/catkin_ws/src/"
-    filepath = homedir
-    user_input = os.path.join(filepath, 'user_input.wav')
+    user_input = 'user_input.wav'
     result = detect_intent_audio("turtlebot-1cb15", "1-1-1-1-1", user_input, 'en-US')
     return result
 

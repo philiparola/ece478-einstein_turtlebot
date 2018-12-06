@@ -1,8 +1,11 @@
 # Credential Files
 *credentials.csv
+*turtlebot-1cb15-3ecbc66bd3e8.json
 
 ## Custom ignores
 *.vscode/
+*speech.mp3
+*user_input.wav
 
 
 ## Python ignores

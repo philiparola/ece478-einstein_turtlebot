@@ -9,11 +9,8 @@ import sys
 import os
 
 # file path for the .wav file
-homedir = os.environ['HOME']
-#filepath = homedir + "/catkin_ws/src/"
-filepath = homedir
-user_input = os.path.join(filepath, 'user_input.wav')
-	
+user_input = 'user_input.wav'
+
 # some values for the recorder
 CHUNK = 1024
 FORMAT = pyaudio.paInt16
