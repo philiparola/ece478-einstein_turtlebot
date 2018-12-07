@@ -1,0 +1,6 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+    <node name="robot_theater.py" pkg="robot_theater" type="robot_theater.py" required="true" output="screen" cwd="node">
+    </node>
+</launch>
