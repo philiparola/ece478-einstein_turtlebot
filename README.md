@@ -34,23 +34,19 @@ This project is for the [TurtleBot2](https://www.turtlebot.com/turtlebot2/).  (F
 The TurtleBot2 uses [ROS Kinetic](http://wiki.ros.org/kinetic/Installation) as its software platform.
 
 ### Setup Controller
-Due to unavoidable drama, we are no longer using the mobile base of the TurtleBot.  We are going to be running the demo off of a laptop.
+The controller was used only for Part 2, but it very likely works in Part 1.
+#### Install ROS to Raspberry Pi (INCOMPLETE)
+There are many ways to install ROS on a Raspberry Pi.  [The offical method](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi) failed for us, but may work for you.  Melih seems to have followed that guide.
+If you download Melih's custom ROSPi images (download links withheld; we see you crawlers), it is a zip file seperated into parts, and will need to be combined.  On Unix, run 'rospi.zip.00* > rospi.zip' to combine them.  Then burn the .img file to the SD by running 'sudo dd bs=4M if=rospi.img of=/dev/sdX conv=fsync' (DESTRUCTIVE: triple check to make sure the command is correct).
+On Windows, follow [this guide to combine the files](http://mwiki.gichd.org/IM/Combine_several_zip_files), then [this guide to write to SD](http://www.alanlay.com/blog/2014/6/8/raspberry-pi).
 
-<strike>Hardware: Intel Joule (Unknown version)
+You are definatly going to want to make sure that your filesystem is fully expanded. Run 'sudo raspi-config', and the TUI is actually intuitive.
 
-OS Version: Linux turtlebot2 4.4.0-1000-joule #0+joule21-Ubuntu SMP PREEMPT Thu Mar 16 14:46:45 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+#### Missing ROS packages
+You may have more packages missing than us, but this should point you in the right direction.
+Run 'rosdep update'
+TODO: NOT YET COMPLETE.  As of now, the Pi isn't working.  actionlib (required by my_dynamixel_tutorial, and probably the others) is missing, and I haven't figured out how to install it.
 
-u: turtle2
-
-p: turtlebot
-
-
-Ubuntu 16.04 and ROS Kinetic came preinstalled courtesy of Melih.
-
-1) Clone Github Repo
-2) TBD
-</strike>
- 
 ### Setup Development computer
 Following the [ROS Kinetic install guide](http://wiki.ros.org/kinetic/Installation/Ubuntu):
 ```bash
