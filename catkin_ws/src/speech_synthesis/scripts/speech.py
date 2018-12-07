@@ -31,7 +31,7 @@ polly_client = boto3.Session(
 mixer.init()
 
 def handle_speech_synthesis(req):
-	response = polly_client.synthesize_speech(VoiceId='Joey',
+	response = polly_client.synthesize_speech(VoiceId='Hans',
 				OutputFormat='mp3', 
 				Text = str(req.req))
 	file = open('speech.mp3', 'w')
