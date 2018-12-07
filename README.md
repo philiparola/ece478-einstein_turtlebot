@@ -225,7 +225,10 @@ TODO: Network layout, how to launch
 The robot utilizes Amazon Polly and Google DialogFlow to interact with people.  The robot will speak in response to people, and gesture depending on what has been said.
 To run interactive mode:
 ```shell
-roslaunch voice_recognition voice_recognition.launch
+chmod a+rw /dev/ttyUSB0		# Unless more than one USB->Serial adapter
+roslaunch my_dynamixel_tutorial controller_manager.launch
+roslaunch my_dynamixel_tutorial start_all_motor_controller.launch
 rosrun speech_synthesis speech.py
-# To test, rosservice call /speech_synthesis 'text'
+roslaunch voice_recognition voice_recognition.launch
+# To test, rosservice call /speech_synthesis 'Hello!'
 ```
