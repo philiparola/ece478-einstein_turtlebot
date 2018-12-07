@@ -1,5 +1,5 @@
 [submodule "catkin_ws/kobuki"]
-	path = catkin_ws/kobuki
+	path = catkin_ws/src/kobuki
 	url = https://github.com/yujinrobot/kobuki.git
 
 [submodule "archive/ECE578_Schrodinger_Cat"]

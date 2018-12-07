@@ -192,7 +192,11 @@ Teaching Assistant
 ### Project 2 Setup for more libraries
 This part of the project utilizes Amazon Polly and Google DialogFlow for it's speech engine.  These take a little bit of work to install.
 ```shell
-# You may run the following remove operations if you encounter errors
+sudo apt install ros-kinetic-ecl-*
+sudo apt install ros-kinetic-kobuki*
+# Follow this guide: http://wiki.ros.org/kobuki/Tutorials/Installation
+
+# Try running the following remove operations if you encounter errors at runtime
 sudo apt remove python-pyasn1-modules
 sudo pip2 uninstall pyasn
 sudo pip2 install dialogflow
