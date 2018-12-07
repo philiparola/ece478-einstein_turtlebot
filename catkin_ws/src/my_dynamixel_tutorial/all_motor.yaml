@@ -4,7 +4,7 @@ RArmShoulderVert_01:
         module: joint_position_controller
         type: JointPositionController
     joint_name: RASV_01
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 1
         init: 409
@@ -17,7 +17,7 @@ RArmShoulderHori_02:
         module: joint_position_controller
         type: JointPositionController
     joint_name: RASH_02
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 2
         init: 341
@@ -30,7 +30,7 @@ RArmElbowVert_03:
         module: joint_position_controller
         type: JointPositionController
     joint_name: RAEV_03
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 3
         init: 306
@@ -43,7 +43,7 @@ RArmElbowHori_04:
         module: joint_position_controller
         type: JointPositionController
     joint_name: RAEH_04
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 4
         init: 341
@@ -56,7 +56,7 @@ LArmShoulderVert_05:
         module: joint_position_controller
         type: JointPositionController
     joint_name: LASV_05
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 5
         init: 204
@@ -69,7 +69,7 @@ LArmShoulderHori_06:
         module: joint_position_controller
         type: JointPositionController
     joint_name: LASH_06
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 6
         init: 341
@@ -82,7 +82,7 @@ LArmElbowVert_07:
         module: joint_position_controller
         type: JointPositionController
     joint_name: LAEV_07
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 7
         init: 613
@@ -95,7 +95,7 @@ LArmElbowHori_08:
         module: joint_position_controller
         type: JointPositionController
     joint_name: LAEH_08
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 8
         init: 409
@@ -108,7 +108,7 @@ NeckHori_09:
         module: joint_position_controller
         type: JointPositionController
     joint_name: NH_09
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 9
         init: 511
@@ -121,7 +121,7 @@ NeckVert_10:
         module: joint_position_controller
         type: JointPositionController
     joint_name: NV_10
-    joint_speed: 1.17
+    joint_speed: 2
     motor:
         id: 10
         init: 375
