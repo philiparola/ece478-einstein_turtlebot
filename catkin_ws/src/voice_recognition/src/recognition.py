@@ -14,7 +14,7 @@ def send_gesture(command):
         leftWave()
     elif "Bye!" in command:
         rightWave()
-    elif command is "a":
+    elif command is "I can't hear you!":
         shakeHead()
     else:
         nodHead()
