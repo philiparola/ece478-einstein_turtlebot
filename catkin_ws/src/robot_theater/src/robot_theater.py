@@ -5,6 +5,7 @@ from std_msgs.msg import Int32
 from std_msgs.msg import Float64
 import time
 import os
+from multiprocessing import Process
 
 def ourDelay(time_sleep):
     time.sleep(time_sleep)
@@ -15,6 +16,7 @@ def waitForCat(time_sleep):
 	time.sleep(time_sleep)
 
 def shakeHead():
+    print("Shake head")
     NeckHori = rospy.Publisher('NeckHori_09/command', Float64, queue_size=10)
     NeckHori.publish(0.95)
     time.sleep(.5)
@@ -25,14 +27,16 @@ def shakeHead():
     NeckHori.publish(0)
     
 def nodHead():
+    print("Nod head")
     NeckVert = rospy.Publisher('NeckVert_10/command', Float64, queue_size=10)
-    NeckVert.publish(0.8)
-    time.sleep(.5)
-    NeckVert.publish(-0.8)
+    NeckVert.publish(1.5)
     time.sleep(.5)
     NeckVert.publish(0)
+    time.sleep(.5)
+    NeckVert.publish(0.95)
 
 def leftWave():
+    print("Left wave")
     RArmShoulderVert = rospy.Publisher('RArmShoulderVert_01/command', Float64, queue_size=10)
     RArmShoulderHori = rospy.Publisher('RArmShoulderHori_02/command', Float64, queue_size=10)
     RArmElbowVert = rospy.Publisher('RArmElbowVert_03/command', Float64, queue_size=10)
@@ -56,9 +60,15 @@ def leftWave():
     time.sleep(1)
     LArmElbowHori.publish(1.05)
     time.sleep(1)
+    LArmElbowHori.publish(0)
+    time.sleep(1)
+    LArmElbowHori.publish(1.05)
+    time.sleep(1)
+    LArmElbowHori.publish(0)
 
 
 def rightWave():
+    print("Right wave")
     RArmShoulderVert = rospy.Publisher('RArmShoulderVert_01/command', Float64, queue_size=10)
     RArmShoulderHori = rospy.Publisher('RArmShoulderHori_02/command', Float64, queue_size=10)
     RArmElbowVert = rospy.Publisher('RArmElbowVert_03/command', Float64, queue_size=10)
@@ -82,8 +92,14 @@ def rightWave():
     time.sleep(1)
     RArmElbowHori.publish(0)
     time.sleep(1)
+    RArmElbowHori.publish(1.89)
+    time.sleep(1)
+    RArmElbowHori.publish(0)
+    time.sleep(1)
+    RArmElbowHori.publish(1.89)
 
 def bothWave():
+    print("Both wave")
     RArmShoulderVert = rospy.Publisher('RArmShoulderVert_01/command', Float64, queue_size=10)
     RArmShoulderHori = rospy.Publisher('RArmShoulderHori_02/command', Float64, queue_size=10)
     RArmElbowVert = rospy.Publisher('RArmElbowVert_03/command', Float64, queue_size=10)
@@ -101,15 +117,22 @@ def bothWave():
     LArmShoulderVert.publish(0)
     LArmShoulderHori.publish(0.84)
     LArmElbowVert.publish(1.05)
-    LArmElbowHori.publish(0)	
-    time.sleep(1)
+    LArmElbowHori.publish(-1.5)	
+    time.sleep(2)
     RArmElbowHori.publish(0)
     LArmElbowHori.publish(1.05)
-    time.sleep(1)
+    time.sleep(2)
+    RArmElbowHori.publish(1.05)
+    LArmElbowHori.publish(0)	
+    time.sleep(2)
+    RArmElbowHori.publish(0)
+    LArmElbowHori.publish(1.05)
+    time.sleep(2)
 
 
 
 def raiseArms():
+    print("Raise arms")
     RArmShoulderVert = rospy.Publisher('RArmShoulderVert_01/command', Float64, queue_size=10)
     RArmShoulderHori = rospy.Publisher('RArmShoulderHori_02/command', Float64, queue_size=10)
     RArmElbowVert = rospy.Publisher('RArmElbowVert_03/command', Float64, queue_size=10)
@@ -131,6 +154,7 @@ def raiseArms():
 
 
 def lowerArms():
+    print("Lower arms")
     RArmShoulderVert = rospy.Publisher('RArmShoulderVert_01/command', Float64, queue_size=10)
     RArmShoulderHori = rospy.Publisher('RArmShoulderHori_02/command', Float64, queue_size=10)
     RArmElbowVert = rospy.Publisher('RArmElbowVert_03/command', Float64, queue_size=10)
@@ -152,31 +176,45 @@ def lowerArms():
     pass
 
 def faceAudience():
+    print("Face audience")
     pass
 
 def faceCat():
+    print("Face cat")
     pass
+
+def testAllGestures():
+    raiseArms()
+    time.sleep(5)
+    raiseArms()
+    time.sleep(5)
+    bothWave()
+    time.sleep(5)
+    lowerArms()
+    time.sleep(5)
+    nodHead()
+    time.sleep(5)
+    shakeHead()
+    time.sleep(5)
+    leftWave()
+    time.sleep(5)
+    rightWave()
+    time.sleep(5)
+
 
 rospy.init_node('robot_theater_einstein', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
-raiseArms()
-time.sleep(5)
-bothWave()
-time.sleep(5)
-lowerArms()
-time.sleep(5)
-nodHead()
-time.sleep(5)
-shakeHead()
-
-
+testAllGestures()
 '''
 waitForCat(13)
 waitForCat(10)
 waitForCat(3)
 waitForCat(9)
 waitForCat(8)
+'''
+'''
+print("were in")
 faceAudience()
 bothWave()
 lowerArms()
@@ -225,3 +263,4 @@ ourDelay(2)
 waitForCat(0)
 lowerArms()
 '''
+
