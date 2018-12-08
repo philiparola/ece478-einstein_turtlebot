@@ -15,8 +15,8 @@
 from speech_synthesis.srv import synthesis_service
 import rospy
 import boto3
-from pygame import mixer
 import csv
+import playsound
 
 with open('credentials.csv') as csv_file:
 	data = list(csv.reader(csv_file))
@@ -28,8 +28,6 @@ polly_client = boto3.Session(
 	aws_secret_access_key=secret_key,
 	region_name='us-west-2').client('polly')
 
-mixer.init()
-
 def handle_speech_synthesis(req):
 	response = polly_client.synthesize_speech(VoiceId='Hans',
 				OutputFormat='mp3', 
@@ -37,15 +35,14 @@ def handle_speech_synthesis(req):
 	file = open('speech.mp3', 'w')
 	file.write(response['AudioStream'].read())
 	file.close()
-	mixer.music.load('speech.mp3')
-	mixer.music.play()
-	return 1
+	playsound.playsound('speech.mp3', True)
+ 	return 1
 	
 def speech_synthesis_server():
 	rospy.init_node('speech_synthesis_server')
 	s = rospy.Service('speech_synthesis', synthesis_service, handle_speech_synthesis)
 	print("Ready to synthesize.")	
-	rospy.spin()
+ 	rospy.spin()
 
 if __name__ == "__main__":
 	speech_synthesis_server()

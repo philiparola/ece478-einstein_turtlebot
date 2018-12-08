@@ -206,7 +206,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/parola/turtlebot-1cb15-3ecbc66bd3e8
 
 sudo pip install boto3
 sudo pip install awscli
-sudo pip install pygame
+sudo pip install playsound
 aws configure
     AWS Access Key ID [None]: SECRET
     AWS Secret Access Key [None]: SECRET

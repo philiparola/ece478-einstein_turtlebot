@@ -185,7 +185,7 @@ def recognition():
     os.system("./record.py")
     response = dialogflow.dialogflow_main()
     if len(response) is 0:
-        response = "a"
+        response = "I can't hear you!"
     rospy.loginfo(response)
     send_gesture(response)
     print(response)
