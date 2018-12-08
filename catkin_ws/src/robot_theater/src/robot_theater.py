@@ -177,10 +177,12 @@ def lowerArms():
 
 def faceAudience():
     print("Face audience")
+    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[5.0, 5.0, 5.0]'")
     pass
 
 def faceCat():
     print("Face cat")
+    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[-5.0, -5.0, -5.0]'")
     pass
 
 def testAllGestures():
@@ -205,7 +207,7 @@ def testAllGestures():
 rospy.init_node('robot_theater_einstein', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
-testAllGestures()
+#testAllGestures()
 '''
 waitForCat(13)
 waitForCat(10)
@@ -213,7 +215,13 @@ waitForCat(3)
 waitForCat(9)
 waitForCat(8)
 '''
+
+faceAudience()
+time.sleep(1)
+faceCat()
+
 '''
+raiseArms() # For that initial kick; needs to be published to once before it does anything
 print("were in")
 faceAudience()
 bothWave()
@@ -263,4 +271,3 @@ ourDelay(2)
 waitForCat(0)
 lowerArms()
 '''
-
