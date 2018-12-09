@@ -5,6 +5,7 @@ from std_msgs.msg import Int32
 from std_msgs.msg import Float64
 import time
 import os
+import sys
 from multiprocessing import Process
 
 def ourDelay(time_sleep):
@@ -13,7 +14,7 @@ def ourDelay(time_sleep):
 def waitForCat(time_sleep):
     if time_sleep is 0:
         time_sleep = 5
-	time.sleep(time_sleep)
+    time.sleep(time_sleep)
 
 def shakeHead():
     print("Shake head")
@@ -173,16 +174,18 @@ def lowerArms():
     LArmShoulderHori.publish(1.89)
     LArmElbowVert.publish(1.05)
     LArmElbowHori.publish(0)
+    NeckVert.publish(0.95)
+    NeckHori.publish(0)
     pass
 
 def faceAudience():
     print("Face audience")
-    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[5.0, 5.0, 5.0]'")
+    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[5.0, 5.0, 5.0]' > /dev/null")
     pass
 
 def faceCat():
     print("Face cat")
-    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[-5.0, -5.0, -5.0]'")
+    os.system("rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist '[0.0,0.0,0.0]' '[-5.0, -5.0, -5.0]' > /dev/null")
     pass
 
 def testAllGestures():
@@ -207,22 +210,12 @@ def testAllGestures():
 rospy.init_node('robot_theater_einstein', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
-#testAllGestures()
-'''
+lowerArms()
 waitForCat(13)
 waitForCat(10)
 waitForCat(3)
 waitForCat(9)
 waitForCat(8)
-'''
-
-faceAudience()
-time.sleep(1)
-faceCat()
-
-'''
-raiseArms() # For that initial kick; needs to be published to once before it does anything
-print("were in")
 faceAudience()
 bothWave()
 lowerArms()
@@ -251,7 +244,7 @@ waitForCat(15)
 waitForCat(2)
 raiseArms()
 lowerArms()
-faceAudience()
+#faceAudience() Haven't faced cat yet?
 ourDelay(1)
 ourDelay(14)
 waitForCat(5)
@@ -264,10 +257,10 @@ faceAudience()
 ourDelay(2)
 waitForCat(7)
 nodHead()
+sys.exit()
 ourDelay(4)
 waitForCat(6)
 leftWave()
 ourDelay(2)
 waitForCat(0)
 lowerArms()
-'''
